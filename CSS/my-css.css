@@ -1,0 +1,62 @@
+/* Universal box sizing */
+* {   
+    box-sizing: border-box;
+    }
+
+h1, h2 {
+    /* This is a single line comment */
+     text-align: center;
+     color: yellow;
+     background-color: green;
+     padding: 0.5vw;
+     font-size: 3vw;
+ }
+
+ p{
+     text-align: center;
+     color: black;
+ }
+ .newfont{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5vw;
+    }
+.large{
+    font-size:3vw;
+    }
+
+/* Style the top navigation bar */
+.topnav {   
+    overflow: hidden;   
+    background-color: black;
+    font-size: 2vw;
+    }
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color:white;   
+    text-align: center;   
+    padding: 1.5vw 1vw;   
+    text-decoration: none;
+}
+ /* Change color on hover */
+ .topnav a:hover {   
+    background-color: white;
+        color:green;
+    }
+    .footer {   
+        background-color: yellow;   
+        text-align: center;   
+        padding: 0.5vw;
+        font-size: 2vw;
+    }
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 75%;
+    }
+    
+    
+
+ 
